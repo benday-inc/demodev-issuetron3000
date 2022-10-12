@@ -17,6 +17,6 @@ jobs:
           io_key: '${{ secrets.IO_KEY }}'
           io_feed: 'issuetron'
           send_context: true
-      # Use the output from the `hello` step
+      # Use the output from the `hello` step...
       - name: Check if we succeeded to turn on the light
         run: echo "The result of the action is ${{ steps.activation.outputs.success }}"
