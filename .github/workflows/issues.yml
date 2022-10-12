@@ -13,7 +13,6 @@ jobs:
         with:
           time: '15' # how much time we will keep our light on
           blink: true # enable blinking, otherwise just turn on the lamp
-          pumpkin: 'on'
           io_user: '${{ secrets.IO_USER }}'
           io_key: '${{ secrets.IO_KEY }}'
           io_feed: 'issuetron'
