@@ -11,11 +11,11 @@ jobs:
         name: "Update a projects CONTRIBUTORS file"
         env:
           CONTRIB_REPOSITORY: 'benday-inc/demodev-issuetron3000'
-          CONTRIB_OUTPUT_FILE: 'CONTRIBUTORS.md'
+          CONTRIB_OUTPUT_FILE: 'CONTRIBUTORS2.md'
       - name: Commit changes
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: 'CONTRIBUTORS.md'
+          file-path: 'CONTRIBUTORS2.md'
           commit-msg: Update Contributors
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
