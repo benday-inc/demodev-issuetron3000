@@ -16,7 +16,7 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
           file-path: 'CONTRIBUTORS.md'
-          allow-removing: true
+          allow-removing: 'true'
           commit-msg: Update Contributors
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
